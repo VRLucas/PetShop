@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/style.css">
+    <title>Cadastro</title>
+</head>
+
+<body id="cadastro">
+    <div>
+
+        <h1 class="cor">Formulario de Cadastro do pet</h1>
+        <div>
+            <nav id="menuNav">
+                <ul id="navUlLi">
+                    <li id="navUlLi"><a href="./index.html">Página Pricinpal</a></li>
+                    <li id="navUlLi"> <a href="./cadastro.html">Cadastro</a></li>
+                    <li id="navUlLi"> <a href="./servico.html">Serviço</a></li>
+                    <li id="navUlLi"> <a href="./produtos.html">Produtos</a></li>
+                    <li id="navUlLi"> <a href="./fala.html">Fale conosco</a></li>
+
+                </ul>
+            </nav>
+
+        </div>
+
+
+        <br>
+        <br>
+        <form id="form" name="formCadastro" action="./cadastro.html" method="post">
+            <label>Nome do pet: <input id="input" type="text" name="name"></label>
+            <p></p>
+            <label>Sexo do Pet: <input  id="input" type="radio" name="Feminino" value="F">Femêa
+                <input id="input" type="radio" name="Masculino" value="M">Macho
+            </label>
+            <p></p>
+            <label>Qual e o Animal: <select id="select">
+                    <option></option>
+                    <option>Cachorro</option>
+                    <option>Gato</option>
+                    <option>Passáro</option>
+                    <option>Cobra</option>
+
+                </select>
+            </label>
+            <p></p>
+
+
+            <label>Raça: <input  id="input" type="text" name="raça"></label>
+            <p></p>
+
+
+            <label>Nome do Propretario: <input id="input" type="text" name="name"></label>
+            <p></p>
+            <label>Sexo: <input id="input" type="radio" name="Feminino" value="F">Feminino
+                <input  id="input" type="radio" name="Masculino" value="M">Masculino
+            </label>
+            <p></p>
+            <label>Email: <input id="input" type="email" name="email"></label>
+            <p></p>
+            <label>Telefone: <input  id="input" type="number" name="Telefone"></label>
+            <p></p>
+            <label>Uf:<select id="select" name="Estado">
+                    <option></option>
+                    <option>AC</option>
+                    <option>Am</option>
+                    <option>BA</option>
+                    <option selected>DF</option>
+                </select>
+            </label>
+            <p></p>
+            <input id="input" type="submit" name="Enviar">
+            <input  id="input" type="reset" name="Limpar">
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
